@@ -33,7 +33,7 @@ fnt = CTkFont(family="Agency FB",size=48,weight="bold")
 ttl = CTkLabel(root,text="Téléchargeur Youtube",font=fnt)
 ttl.grid(row=0,column=2,pady=10)
 
-fnt2 = fnt = CTkFont(family="Agency FB",size=24)
+fnt2 =  CTkFont(family="Agency FB",size=24)
 ent_lbl = CTkLabel(root,text="Entrez le lien: ",font=fnt2 )
 ent_lbl.grid(row=1,column=1,pady=10)
 
